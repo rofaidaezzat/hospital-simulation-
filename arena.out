@@ -1,0 +1,82 @@
+SIMAN Run Controller.
+
+1.0 Hours>
+                                      ARENA Simulation Results
+                                             Mega Store
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/15/2024
+Analyst: Mega Store                                                  Model revision date: 5/15/2024
+
+Replication ended at time      : 1.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .19640     (Insuf)    .00000     .85717         14    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         14    
+Entity 1.WaitTime                           .06504     (Insuf)    .00000     .22723         14    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         14    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         14    
+Entity 1.TotalTime                          .26144     (Insuf)    .00000     .96120         14    
+Room 1 Dr consultation.Queue.WaitingTime    .04763     (Insuf)    .00000     .10344          5    
+ECG chicking.Queue.WaitingTime              .07308     (Insuf)    .01281     .12709          4    
+Blood test.Queue.WaitingTime                .02981     (Insuf)    .00000     .06068         12    
+Dr consultation only.Queue.WaitingTime      .04880     (Insuf)    .04880     .04880          1    
+Room 2 Dr consultation.Queue.WaitingTime    .03956     (Insuf)    .01333     .06459          5    
+dr consultation with medication.Queue.Wait  .03492     (Insuf)    .01368     .05557          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                21.412     (Insuf)    .00000     37.000     36.000    
+paitent 2.NumberBusy                        .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+paitent 2.Utilization                       .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 3.NumberBusy                        .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+paitent 3.Utilization                       .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 4.NumberBusy                        .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+paitent 4.Utilization                       .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 5.NumberBusy                        .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+paitent 5.Utilization                       .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent1.NumberBusy                         .56728     (Insuf)    .00000     1.0000     1.0000    
+paitent1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+paitent1.Utilization                        .56728     (Insuf)    .00000     1.0000     1.0000    
+Room 1 Dr consultation.Queue.NumberInQueue  .29275     (Insuf)    .00000     3.0000     1.0000    
+ECG chicking.Queue.NumberInQueue            .30469     (Insuf)    .00000     2.0000     1.0000    
+Blood test.Queue.NumberInQueue              .37407     (Insuf)    .00000     4.0000     3.0000    
+Dr consultation only.Queue.NumberInQueue    .04880     (Insuf)    .00000     1.0000     .00000    
+Room 2 Dr consultation.Queue.NumberInQueue  .22325     (Insuf)    .00000     2.0000     1.0000    
+dr consultation with medication.Queue.Numb  .10476     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           50.000    
+Entity 1.NumberOut                          14.000    
+paitent 2.NumberSeized                      30.000    
+paitent 2.ScheduledUtilization              .56728    
+paitent 3.NumberSeized                      30.000    
+paitent 3.ScheduledUtilization              .56728    
+paitent 4.NumberSeized                      30.000    
+paitent 4.ScheduledUtilization              .56728    
+paitent 5.NumberSeized                      30.000    
+paitent 5.ScheduledUtilization              .56728    
+paitent1.NumberSeized                       30.000    
+paitent1.ScheduledUtilization               .56728    
+System.NumberOut                            14.000    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

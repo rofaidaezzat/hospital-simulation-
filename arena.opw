@@ -1,0 +1,37 @@
+[RESOURCES]
+paitent 2
+paitent 3
+paitent 4
+paitent 5
+paitent1
+[VARIABLES]
+paitent Expression.NumberOut
+Dispose 2.NumberOut
+sorting of paitence.NumberOut False
+Registration.NumberOut
+dr consultation with medication.NumberIn
+Blood test.NumberIn
+Registration.NumberIn
+Blood test.NumberOut
+ECG chicking.NumberIn
+ECG chicking.NumberOut
+Dr consultation only.NumberOut
+Dispose 4.NumberOut
+Dr consultation only.NumberIn
+paitent schedule.NumberOut
+Room 1 Dr consultation.NumberOut
+sorting of paitence.NumberOut True
+new appointment given.NumberOut
+paitent Random1.NumberOut
+medication with new appointment.NumberIn
+Dispose 3.NumberOut
+paitent costant.NumberOut
+Room 2 Dr consultation.NumberOut
+medication with new appointment.NumberOut
+paitent Random 2.NumberOut
+new appointment given.NumberIn
+Room 1 Dr consultation.NumberIn
+sorting of paitence accordingly.NumberOut False
+Room 2 Dr consultation.NumberIn
+dr consultation with medication.NumberOut
+sorting of paitence accordingly.NumberOut True
